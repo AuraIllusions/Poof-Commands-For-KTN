@@ -10,7 +10,7 @@ function getRandMessage(user){
 	switch(Math.floor(Math.random()*numMessages)){
 		case 0: message = message + user.name + ' was sucked into a Dark Void!';
 			break;
-		case 1: message = message + user.name + ' After a tough battle at Kill the Noise +user.name+ whited out!';
+		case 1: message = message + user.name + ' After a tough battle at Kill the Noise ' +user.name+ ' whited out!';
 			break;
 		case 2: message = message + user.name + ' used Explosion!'; //owwww
 			break;
