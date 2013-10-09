@@ -4,7 +4,7 @@
 
 //dont forget to add this to commands.js 
 
-function getRandMessage(user){
+poof: function getRandMessage(user){
 	var numMessages = 48; // numMessages will always be the highest case # + 1
 	var message = '~~ ';
 	switch(Math.floor(Math.random()*numMessages)){
